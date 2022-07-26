@@ -1,0 +1,18 @@
+.input {
+  .label {
+    margin-top: 15px;
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .input-element {
+    box-sizing: border-box;
+    width: 100%;
+    color: #c6c6c6;
+    height: 35px;
+    font-size: 20px;
+    background: none;
+    border: 2px solid #c6c6c6;
+    border-radius: 8px;
+  }
+}

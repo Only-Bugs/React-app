@@ -1,7 +1,12 @@
+import Navbar from "./components/navbar/navbar.component";
+import LoginPage from "./routes/loginpage/login";
+
 function App() {
   return (
     <div className="App">
-      <h1>This is a whore</h1>
+      {/* navbar comp */}
+      <Navbar />
+      <LoginPage />
     </div>
   );
 }

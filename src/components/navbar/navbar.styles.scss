@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  color: #c6c6c6;
+  font-size: 25px;
+  background: #030615;
+  height: 50px;
+  align-items: center;
+
+  .company-name {
+    margin-left: 25px;
+  }
+  .nav-items {
+    margin-right: 25px;
+    .glow {
+      margin: 0px 10px;
+      padding: 10px;
+    }
+    .glow:hover {
+      border-bottom: 5px solid #00d8f0;
+    }
+  }
+}
